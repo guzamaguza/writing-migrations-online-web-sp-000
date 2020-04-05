@@ -19,4 +19,4 @@ def drop_db
   end
 end
 
-require_relative "../student.rb"
+require_relative "..models/student.rb"
