@@ -19,8 +19,10 @@ def drop_db
   end
 end
 
+=begin
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
   :database => "db/school-development.sqlite"
 )
 require_relative "..app/models/student.rb"
+=end 
